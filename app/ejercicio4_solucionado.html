@@ -462,11 +462,19 @@
             "order": [
                 [0, "asc"]
             ],
-            "columnDefs": [{
-                "targets": [2, 3],
+            "columnDefs": [
+            {
+                "targets": [2],
                 "visible": false,
-                "searchable": true
-            }]
+            },
+            {
+                "targets": [3],
+                "searchable": false,
+                "visible": false
+
+            }
+
+            ]
 
         });
     });
